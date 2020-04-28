@@ -41,7 +41,7 @@ export default function Layout({ children }) {
       <Grid>
         <main>{children}</main>
         <footer>
-          © {currentYear}, Built by <a href="https:/besmurf.de" target="_blank" rel="noopener noreferrer">Besmurf</a>
+          © {currentYear}, Built by <a href="https://besmurf.de" target="_blank" rel="noopener noreferrer">Besmurf</a>
         </footer>
       </Grid>
     </>
