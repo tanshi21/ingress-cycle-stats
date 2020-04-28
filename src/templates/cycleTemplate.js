@@ -35,7 +35,8 @@ export default function CycleTemplate({ data, location }) {
         <ScoreNumber>ENL: {enlightened}</ScoreNumber>
       </ActiveScoreBox>
       <SitrepWrapper>
-        {sitrep}
+        {sitrep ? 'danger...fooo' : 'NO SITREP IN DATABASE - WRITE ONE!'}
+       
       </SitrepWrapper>
     </Layout>
   )
